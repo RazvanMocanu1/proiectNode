@@ -1,11 +1,11 @@
-const numeSite = () => {
+const NumeSite = () => {
   return <h1>Bun venit pe site-ul meu</h1>;
 };
 
 const App = () => {
   return (
     <div>
-      <numeSite></numeSite>
+      <NumeSite/>
     </div>
   );
 };
