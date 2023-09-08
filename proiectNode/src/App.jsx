@@ -14,6 +14,18 @@ const Hint = () => {
   return <h6>Hint : este un Material din care se fac gogosile</h6>
 }
 
+const Spatiu = () => {
+  return <h1> </h1>
+};
+
+const Donut = () => {
+  return <img src="donut.png" width={250} height={250}></img>
+};
+
+const MesajGogoasa = () => {
+  return <h3>Aceasta este o gogoasa cu un tip de glazura doar ca nu stiim ce glazura este , trebe sa te gandesti ce fel de tip de glazura se afla pe gogoasa</h3>
+};
+
 const App = () => {
   return (
     <div>
@@ -21,6 +33,10 @@ const App = () => {
       <DoughIcon/>
       <MesajSecundar/>
       <Hint/>
+      <Spatiu/>
+      <Donut/>
+      <MesajGogoasa/>
+      <Spatiu/>
     </div>
   );
 };
