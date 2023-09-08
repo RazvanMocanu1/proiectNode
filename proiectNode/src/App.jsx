@@ -23,8 +23,12 @@ const Donut = () => {
 };
 
 const MesajGogoasa = () => {
-  return <h3>Aceasta este o gogoasa cu un tip de glazura doar ca nu stiim ce glazura este , trebe sa te gandesti ce fel de tip de glazura se afla pe gogoasa</h3>
+  return <h3>Aceasta este o gogoasa care are o aroma speciala si trebe sa iti dai seama ce aroma este</h3>
 };
+
+const Hint2 = () => {
+  return <h6>Hint : este o aroma de fructe</h6>
+}
 
 const App = () => {
   return (
@@ -36,6 +40,7 @@ const App = () => {
       <Spatiu/>
       <Donut/>
       <MesajGogoasa/>
+      <Hint2/>
       <Spatiu/>
     </div>
   );
