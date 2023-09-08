@@ -30,6 +30,18 @@ const Hint2 = () => {
   return <h6>Hint : este o aroma de fructe</h6>
 }
 
+const Mesaj = () => {
+  return <h1>m̥̊巳𝑠🅐ｊ</h1>
+}
+
+const Mesaj2 = () => {
+  return <h3>Aceasta este un mesaj secret , trebe sa iti dai seama ce inseamna</h3>
+};
+
+const Hint3 = () => {
+  return <h6>Hint : are numai 5 litere</h6>
+};
+
 const App = () => {
   return (
     <div>
@@ -42,6 +54,9 @@ const App = () => {
       <MesajGogoasa/>
       <Hint2/>
       <Spatiu/>
+      <Mesaj/>
+      <Mesaj2/>
+      <Hint3/>
     </div>
   );
 };
